@@ -9,14 +9,14 @@ setuptools.setup(
     name="etl_with_s3_access_points",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="etl-with-s3-access-points",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "etl_with_s3_access_points"},
-    packages=setuptools.find_packages(where="etl_with_s3_access_points"),
+    package_dir={"": "stacks"},
+    packages=setuptools.find_packages(where="stacks"),
 
     install_requires=[
         "aws-cdk.core==1.95.1",
